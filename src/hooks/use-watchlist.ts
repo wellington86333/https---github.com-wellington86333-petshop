@@ -5,7 +5,7 @@ import { useState, useEffect, useCallback } from 'react';
 import type { Deal } from '@/lib/types';
 import { deals } from '@/lib/deals';
 
-const WATCHLIST_KEY = 'amazon-deals-watchlist';
+const WATCHLIST_KEY = 'petlovers-watchlist';
 
 export const useWatchlist = () => {  
   const [watchlistIds, setWatchlistIds] = useState<string[]>([]);

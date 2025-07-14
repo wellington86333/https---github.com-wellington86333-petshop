@@ -4,10 +4,11 @@ import './globals.css';
 import { cn } from '@/lib/utils';
 import { Header } from '@/components/Header';
 import { Toaster } from "@/components/ui/toaster";
+import { Footer } from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'AchouLevaAí - Ofertas Amazon Selecionadas',
-  description: 'As melhores ofertas da Amazon selecionadas para você! Produtos com qualidade e preços incríveis.',
+  title: 'PetLovers Club - Ofertas Selecionadas',
+  description: 'As melhores ofertas da Amazon selecionadas para o seu pet!',
 };
 
 export default function RootLayout({
@@ -26,6 +27,7 @@ export default function RootLayout({
         <div className="relative flex min-h-screen flex-col">
           <Header />
           <div className="flex-1">{children}</div>
+          <Footer />
         </div>
         <Toaster />
       </body>
