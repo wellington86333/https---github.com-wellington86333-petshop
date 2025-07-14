@@ -4,7 +4,7 @@ export const deals: Deal[] = [
   {
     id: "1",
     title: "Ração Hill's Science Diet Pequenos e Mini para Cães Filhotes Sabor Frango - 2.04kg",
-    link: "https://amzn.to/46Eihf5?tag=achoulevaai-20",
+    link: "https://amazon.com.br/?tag=achoulevaai-20",
     image: "https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&w=400",
     dataAiHint: "dog food",
     description: "Ração premium para filhotes de raças pequenas e mini. Fórmula balanceada com frango, rica em proteínas e nutrientes essenciais para o desenvolvimento saudável.",
@@ -20,7 +20,7 @@ export const deals: Deal[] = [
   {
     id: "2",
     title: "Dreamies Petisco Carne Tentadora Gatos Adultos 150G",
-    link: "https://amzn.to/4lRBBd9?tag=achoulevaai-20",
+    link: "https://amazon.com.br/?tag=achoulevaai-20",
     image: "https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg?auto=compress&cs=tinysrgb&w=400",
     dataAiHint: "cat treat",
     description: "Petisco irresistível para gatos adultos com sabor de carne. Textura crocante por fora e macia por dentro que os gatos adoram. Rico em vitaminas e minerais.",
@@ -36,7 +36,7 @@ export const deals: Deal[] = [
   {
     id: "3",
     title: "Coleira Cachorro Gato Reflexiva Ajustável com Case Capa Rastreador GPS Airtag (Preta)",
-    link: "https://amzn.to/3U8mOir?tag=achoulevaai-20",
+    link: "https://amazon.com.br/?tag=achoulevaai-20",
     image: "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=400",
     dataAiHint: "gps collar",
     description: "Coleira ajustável e reflexiva com compartimento especial para AirTag. Ideal para localizar seu pet. Material resistente e confortável para uso diário.",
@@ -52,7 +52,7 @@ export const deals: Deal[] = [
   {
     id: "4",
     title: "Ração Premium Golden Fórmula para Cães Adultos Sabor Carne e Arroz - 15kg",
-    link: "https://amzn.to/44HnaSa?tag=achoulevaai-20",
+    link: "https://amazon.com.br/?tag=achoulevaai-20",
     image: "https://images.pexels.com/photos/1390361/pexels-photo-1390361.jpeg?auto=compress&cs=tinysrgb&w=400",
     dataAiHint: "dog food",
     description: "Ração super premium com carne e arroz. Fórmula completa e balanceada para cães adultos de todas as raças. Rico em proteínas e fibras naturais.",
@@ -68,7 +68,7 @@ export const deals: Deal[] = [
   {
     id: "5",
     title: "Brinquedo Mordedor Corda Dental para Cães - Kit com 3 Peças",
-    link: "https://amzn.to/44MsXGa?tag=achoulevaai-20",
+    link: "https://amazon.com.br/?tag=achoulevaai-20",
     image: "https://images.pexels.com/photos/1629781/pexels-photo-1629781.jpeg?auto=compress&cs=tinysrgb&w=400",
     dataAiHint: "dog toy",
     description: "Kit com 3 brinquedos de corda para higiene dental. Ajuda a limpar os dentes e massagear as gengivas. Material resistente e seguro para cães de todos os tamanhos.",
@@ -84,7 +84,7 @@ export const deals: Deal[] = [
   {
     id: "6",
     title: "Shampoo Neutro para Cães e Gatos - 500ml",
-    link: "https://amzn.to/4kCHaLO?tag=achoulevaai-20",
+    link: "https://amazon.com.br/?tag=achoulevaai-20",
     image: "https://images.pexels.com/photos/6568461/pexels-photo-6568461.jpeg?auto=compress&cs=tinysrgb&w=400",
     dataAiHint: "pet shampoo",
     description: "Shampoo neutro hipoalergênico para cães e gatos. Fórmula suave que limpa sem ressecar a pele. Ideal para pets com pele sensível.",
@@ -100,7 +100,7 @@ export const deals: Deal[] = [
   {
     id: "7",
     title: "Comedouro e Bebedouro Automático Duplo Inox - 400ml cada",
-    link: "https://amzn.to/4nNFSAb?tag=achoulevaai-20",
+    link: "https://amazon.com.br/?tag=achoulevaai-20",
     image: "https://images.pexels.com/photos/1458916/pexels-photo-1458916.jpeg?auto=compress&cs=tinysrgb&w=400",
     dataAiHint: "pet bowl",
     description: "Comedouro duplo em aço inoxidável com base antiderrapante. Fácil de limpar e higiênico. Ideal para cães e gatos de porte pequeno e médio.",
@@ -116,7 +116,7 @@ export const deals: Deal[] = [
   {
     id: "8",
     title: "Areia Sanitária Bentonita para Gatos - 4kg",
-    link: "https://amzn.to/4nL3IN1?tag=achoulevaai-20",
+    link: "https://amazon.com.br/?tag=achoulevaai-20",
     image: "https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg?auto=compress&cs=tinysrgb&w=400",
     dataAiHint: "cat litter",
     description: "Areia sanitária de bentonita com alta absorção e controle de odores. Forma grumos sólidos para fácil remoção. Livre de poeira e fragrâncias artificiais.",
@@ -132,7 +132,7 @@ export const deals: Deal[] = [
   {
     id: "9",
     title: "Casinha de Madeira para Cães Médios - Telhado Impermeável",
-    link: "https://amzn.to/4lric2Y?tag=achoulevaai-20",
+    link: "https://amazon.com.br/?tag=achoulevaai-20",
     image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=400",
     dataAiHint: "dog house",
     description: "Casinha de madeira tratada com telhado impermeável. Proteção contra chuva e sol. Montagem fácil, ideal para cães de porte médio até 25kg.",
@@ -148,7 +148,7 @@ export const deals: Deal[] = [
   {
     id: "10",
     title: "Antipulgas e Carrapatos Spray Natural - 200ml",
-    link: "https://amzn.to/44GI6bR?tag=achoulevaai-20",
+    link: "https://amazon.com.br/?tag=achoulevaai-20",
     image: "https://images.pexels.com/photos/6568461/pexels-photo-6568461.jpeg?auto=compress&cs=tinysrgb&w=400",
     dataAiHint: "flea spray",
     description: "Spray repelente natural contra pulgas e carrapatos. Fórmula com óleos essenciais, segura para pets e família. Proteção duradoura sem químicos agressivos.",
@@ -164,7 +164,7 @@ export const deals: Deal[] = [
   {
     id: "11",
     title: "Ração Úmida Sachê para Gatos Adultos Mix de Sabores - Pack 12 unidades",
-    link: "https://amzn.to/44MuzQe?tag=achoulevaai-20",
+    link: "https://amazon.com.br/?tag=achoulevaai-20",
     image: "https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg?auto=compress&cs=tinysrgb&w=400",
     dataAiHint: "cat food pouch",
     description: "Pack com 12 sachês de ração úmida em sabores variados. Alimento completo e balanceado para gatos adultos. Rico em proteínas e com alta palatabilidade.",
@@ -180,7 +180,7 @@ export const deals: Deal[] = [
   {
     id: "12",
     title: "Transportadora Plástica para Pets - Tamanho M (até 12kg)",
-    link: "https://amzn.to/44MwjZM?tag=achoulevaai-20",
+    link: "https://amazon.com.br/?tag=achoulevaai-20",
     image: "https://images.pexels.com/photos/1458916/pexels-photo-1458916.jpeg?auto=compress&cs=tinysrgb&w=400",
     dataAiHint: "pet carrier",
     description: "Transportadora resistente com ventilação adequada e trava de segurança. Ideal para viagens e consultas veterinárias. Fácil de limpar e montar.",
