@@ -1,6 +1,8 @@
 
 'use client';
 
+export const dynamic = 'force-dynamic';
+
 import React from 'react';
 import { ShoppingCart, Star, Heart, Truck, Shield, Search, Filter } from 'lucide-react';
 import { deals } from '@/lib/deals';
