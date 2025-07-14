@@ -7,7 +7,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Footer } from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'PetLovers Club - Ofertas Selecionadas',
+  title: 'Achou Leva Aí - Ofertas Selecionadas',
   description: 'As melhores ofertas da Amazon selecionadas para o seu pet!',
 };
 

@@ -42,7 +42,7 @@ export function Header() {
               <div className="absolute inset-0 bg-primary/20 rounded-full scale-0 group-hover:scale-150 transition-transform duration-500"></div>
             </div>
             <h1 className="text-2xl font-bold text-foreground tracking-tight">
-              PetLovers Club
+              Achou Leva Aí
             </h1>
           </Link>
 

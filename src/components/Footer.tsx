@@ -26,7 +26,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-3 mb-6">
               <Heart className="w-8 h-8 text-primary" />
-              <h3 className="text-2xl font-bold text-background">PetLovers Club</h3>
+              <h3 className="text-2xl font-bold text-background">Achou Leva Aí</h3>
             </div>
             <p className="text-muted-foreground leading-relaxed mb-6">
               Conectando tutores apaixonados com produtos excepcionais para 
@@ -91,7 +91,7 @@ export function Footer() {
         <div className="container mx-auto px-6 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-muted-foreground text-sm text-center md:text-left">
-              © 2024 PetLovers Club. Feito com ❤️ para pets e seus tutores.
+              © 2024 Achou Leva Aí. Feito com ❤️ para pets e seus tutores.
             </p>
             <div className="flex flex-wrap justify-center gap-6 text-sm">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">

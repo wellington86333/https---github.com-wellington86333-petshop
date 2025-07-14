@@ -31,7 +31,7 @@ export function Contact() {
   };
 
   const contactInfo = [
-    { icon: Mail, title: "Email", content: "contato@petloversclub.com.br", description: "Resposta em até 24h" },
+    { icon: Mail, title: "Email", content: "contato@achoulevaai.com.br", description: "Resposta em até 24h" },
     { icon: MessageCircle, title: "WhatsApp", content: "(11) 99999-9999", description: "Atendimento direto" },
     { icon: Clock, title: "Horário", content: "Seg - Sex: 9h às 18h", description: "Sáb: 9h às 14h" }
   ];

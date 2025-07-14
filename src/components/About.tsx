@@ -34,7 +34,7 @@ export function About() {
             </h2>
             <div className="space-y-6 text-lg text-secondary-foreground leading-relaxed">
               <p>
-                O PetLovers Club nasceu do amor incondicional que sentimos pelos nossos 
+                O Achou Leva Aí nasceu do amor incondicional que sentimos pelos nossos 
                 companheiros de quatro patas. Sabemos que cada pet é único e merece 
                 produtos que reflitam esse carinho especial.
               </p>

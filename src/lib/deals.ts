@@ -1,13 +1,21 @@
 
 import type { Deal } from './types';
 
+const affiliateTag = 'achoulevaai-20';
+
+const addAffiliateTag = (url: string) => {
+  const urlObj = new URL(url);
+  urlObj.searchParams.set('tag', affiliateTag);
+  return urlObj.toString();
+}
+
 export const deals: Deal[] = [
   {
     id: '1',
     title: 'Cama Ortopédica Premium para Cães',
     description: 'Cama super confortável com espuma de memória, perfeita para cães de todas as idades. Tecido impermeável e removível para fácil limpeza.',
     image: 'https://placehold.co/600x400.png',
-    link: 'https://amzn.to/46Eihf5',
+    link: addAffiliateTag('https://amzn.to/46Eihf5'),
     category: 'Conforto',
     price: 'R$ 149,90',
     originalPrice: 'R$ 199,90',
@@ -19,7 +27,7 @@ export const deals: Deal[] = [
     title: 'Ração Premium Sabor Frango - 15kg',
     description: 'Ração super premium com ingredientes naturais, rica em proteínas e vitaminas essenciais para a saúde do seu pet.',
     image: 'https://placehold.co/600x400.png',
-    link: 'https://amzn.to/4lRBBd9',
+    link: addAffiliateTag('https://amzn.to/4lRBBd9'),
     category: 'Alimentação',
     price: 'R$ 89,90',
     originalPrice: 'R$ 119,90',
@@ -31,7 +39,7 @@ export const deals: Deal[] = [
     title: 'Coleira Estilosa com LED',
     description: 'Coleira moderna com iluminação LED recarregável, disponível em várias cores. Segurança e estilo para passeios noturnos.',
     image: 'https://placehold.co/600x400.png',
-    link: 'https://amzn.to/44HnaSa',
+    link: addAffiliateTag('https://amzn.to/44HnaSa'),
     category: 'Acessórios',
     price: 'R$ 39,90',
     dataAiHint: 'dog collar',
@@ -41,7 +49,7 @@ export const deals: Deal[] = [
     title: 'Kit Brinquedos Interativos',
     description: 'Conjunto com 5 brinquedos que estimulam a inteligência e mantêm seu pet entretido por horas. Material resistente e seguro.',
     image: 'https://placehold.co/600x400.png',
-    link: 'https://amzn.to/44MsXGa',
+    link: addAffiliateTag('https://amzn.to/44MsXGa'),
     category: 'Brinquedos',
     price: 'R$ 59,90',
     originalPrice: 'R$ 79,90',
@@ -53,7 +61,7 @@ export const deals: Deal[] = [
     title: 'Fonte de Água Automática',
     description: 'Fonte com filtro que mantém a água sempre limpa e fresca. Estimula a hidratação e tem capacidade para 2 litros.',
     image: 'https://placehold.co/600x400.png',
-    link: 'https://amzn.to/4kCHaLO',
+    link: addAffiliateTag('https://amzn.to/4kCHaLO'),
     category: 'Saúde',
     price: 'R$ 79,90',
     dataAiHint: 'water fountain',
@@ -63,7 +71,7 @@ export const deals: Deal[] = [
     title: 'Transportadora de Viagem Aprovada',
     description: 'Transportadora aprovada para viagens aéreas, super segura e confortável. Ventilação adequada e fechos de segurança.',
     image: 'https://placehold.co/600x400.png',
-    link: 'https://amzn.to/4nNFSAb',
+    link: addAffiliateTag('https://amzn.to/4nNFSAb'),
     category: 'Viagem',
     price: 'R$ 129,90',
     originalPrice: 'R$ 169,90',
@@ -75,7 +83,7 @@ export const deals: Deal[] = [
     title: 'Arranhador para Gatos com Torre',
     description: 'Arranhador grande com múltiplos níveis, casinha e brinquedos. Perfeito para seu gato se exercitar e relaxar.',
     image: 'https://placehold.co/600x400.png',
-    link: 'https://amzn.to/4nL3IN1',
+    link: addAffiliateTag('https://amzn.to/4nL3IN1'),
     category: 'Brinquedos',
     price: 'R$ 249,90',
     dataAiHint: 'cat tree',
@@ -85,7 +93,7 @@ export const deals: Deal[] = [
     title: 'Escova Removedora de Pelos',
     description: 'Remove pelos mortos de forma eficiente, diminuindo a queda e deixando a pelagem do seu pet mais saudável e brilhante.',
     image: 'https://placehold.co/600x400.png',
-    link: 'https://amzn.to/4lric2Y',
+    link: addAffiliateTag('https://amzn.to/4lric2Y'),
     category: 'Higiene',
     price: 'R$ 44,95',
     dataAiHint: 'pet brush',
@@ -95,7 +103,7 @@ export const deals: Deal[] = [
     title: 'Tapete Higiênico Super Absorvente',
     description: 'Pacote com 50 unidades de tapetes higiênicos com alta absorção, controle de odor e atrativo canino.',
     image: 'https://placehold.co/600x400.png',
-    link: 'https://amzn.to/44GI6bR',
+    link: addAffiliateTag('https://amzn.to/44GI6bR'),
     category: 'Higiene',
     price: 'R$ 69,90',
     dataAiHint: 'puppy pads',
@@ -105,7 +113,7 @@ export const deals: Deal[] = [
     title: 'Coleira com Rastreador GPS (Preta)',
     description: 'Coleira reflexiva e ajustável com compartimento para Rastreador GPS/Airtag. Mais segurança para o seu pet.',
     image: 'https://placehold.co/600x400.png',
-    link: 'https://amzn.to/3U8mOir',
+    link: addAffiliateTag('https://amzn.to/3U8mOir'),
     category: 'Acessórios',
     price: 'R$ 55,90',
     dataAiHint: 'gps collar',
@@ -115,7 +123,7 @@ export const deals: Deal[] = [
     title: 'Comedouro Lento Interativo',
     description: 'Ajuda seu pet a comer mais devagar, prevenindo engasgos e melhorando a digestão. Design divertido e anti-derrapante.',
     image: 'https://placehold.co/600x400.png',
-    link: 'https://amzn.to/44MuzQe',
+    link: addAffiliateTag('https://amzn.to/44MuzQe'),
     category: 'Alimentação',
     price: 'R$ 34,90',
     dataAiHint: 'slow feeder',
@@ -125,7 +133,7 @@ export const deals: Deal[] = [
     title: 'Petisco Natural para Cães',
     description: 'Deliciosos petiscos feitos com ingredientes 100% naturais, sem conservantes ou corantes artificiais.',
     image: 'https://placehold.co/600x400.png',
-    link: 'https://amzn.to/44MwjZM',
+    link: addAffiliateTag('https://amzn.to/44MwjZM'),
     category: 'Alimentação',
     price: 'R$ 29,99',
     dataAiHint: 'dog treats',
