@@ -5,8 +5,9 @@ import { cn } from '@/lib/utils';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'AchouLevaAí PetShop - Ofertas da Amazon para seu Pet',
-  description: 'As melhores ofertas da Amazon para cães, gatos e outros pets. Encontre ração, brinquedos, acessórios e muito mais com os melhores preços e a garantia da Amazon.',
+  title: '🐾 AchouLevaAí PetShop - Ofertas Amazon para seu Pet',
+  description: 'AchouLevaAí PetShop - Os melhores produtos para seu pet com preços incríveis na Amazon. Ração, petiscos, brinquedos e muito mais!',
+  keywords: 'petshop, ração, cachorro, gato, pet, amazon, ofertas',
 };
 
 export default function RootLayout({
