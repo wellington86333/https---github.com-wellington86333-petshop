@@ -10,4 +10,8 @@ export interface Deal {
   originalPrice?: string;
   discount?: string;
   dataAiHint?: string;
+  brand?: string;
+  rating?: number;
+  reviews?: number;
+  badge?: string;
 }
