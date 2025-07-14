@@ -5,6 +5,7 @@ import React from 'react';
 import { ShoppingCart, Star, Heart, Truck, Shield, Search, Filter } from 'lucide-react';
 import { deals } from '@/lib/deals';
 import type { Deal } from '@/lib/types';
+import Chatbot from '@/components/Chatbot';
 
 const categories = ["Todos", "Ração", "Petiscos", "Acessórios", "Brinquedos", "Higiene", "Comedouros", "Casinhas", "Saúde", "Transporte"];
 
@@ -59,7 +60,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-100 font-sans">
-      {/* Header */}
       <header className="bg-white shadow-lg sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
@@ -85,7 +85,6 @@ export default function Home() {
       </header>
 
       <main className="max-w-7xl mx-auto px-4 py-6">
-        {/* Search and Filters */}
         <div className="bg-white rounded-lg shadow-md p-6 mb-8">
           <div className="flex flex-col md:flex-row gap-4">
             <div className="flex-1 relative">
@@ -113,7 +112,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Products Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {filteredProducts.map((product) => (
             <div key={product.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105 group">
@@ -203,7 +201,6 @@ export default function Home() {
         )}
       </main>
 
-      {/* Footer */}
       <footer className="bg-gray-800 text-white py-8 mt-12">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
@@ -255,6 +252,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      <Chatbot />
     </div>
   );
 }
